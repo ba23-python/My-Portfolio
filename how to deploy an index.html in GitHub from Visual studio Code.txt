@@ -1,0 +1,53 @@
+PS E:\GitHub\HTML Email Development> git init
+Initialized empty Git repository in E:/GitHub/HTML Email Development/.git/
+PS E:\GitHub\HTML Email Development> git init
+Reinitialized existing Git repository in E:/GitHub/HTML Email Development/.git/
+PS E:\GitHub\HTML Email Development> git add -A
+PS E:\GitHub\HTML Email Development> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   assets/GitHub Page Profile Pic.jpg
+        new file:   assets/ProfilePic Github.PNG
+        new file:   assets/image1 GitHub.jpg
+        new file:   assets/style.css
+        new file:   index.html
+
+PS E:\GitHub\HTML Email Development>
+ git commit -am 'initial commit'
+
+PS E:\GitHub\HTML Email Development> git commit -am 'initial commit'
+[main (root-commit) bdbcbdd] initial commit
+ 7 files changed, 63 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 assets/GitHub Page Profile Pic.jpg
+ create mode 100644 assets/ProfilePic Github.PNG
+ create mode 100644 assets/image1 GitHub.jpg
+ create mode 100644 assets/style.css
+ create mode 100644 how to deploy an index.html in GitHub from Visual studio Code.txt
+ create mode 100644 index.html
+
+When you make changes on the index.html you have to update the GitHub with them.
+Use the following two commands.
+git commit -am 'initial, second, third commit'
+git push -u origin main 
+
+here is the output
+PS E:\GitHub\HTML Email Development> git commit -am '3rd commit'   
+[main b3e4f9c] 3rd commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS E:\GitHub\HTML Email Development> git push -u origin main    
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 326 bytes | 326.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ba23-python/HTML-CSS-Responsive-Email-Development.git
+   f11617b..b3e4f9c  main -> main
+branch 'main' set up to track 'origin/main'.
